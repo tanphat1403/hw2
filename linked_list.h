@@ -1,39 +1,6 @@
-// //
-// //  linked_list.h
-// //  DemoLinkedList
-// //
-// //  Created by TungDT on 7/10/20.
-// //  Copyright © 2020 macOne. All rights reserved.
-// //
 
-// #ifndef linked_list_h
-// #define linked_list_h
-
-
-
-// typedef struct str_node * link;
-// struct str_node
-// {
-//     void* data;
-//     link next;
-//     link prev;
-// };
-
-// typedef struct str_node node;
-
-
-// node* create_node(const void* data);
-// int is_empty(node* const head);
-// void add_head(node **head, const void* data);
-// void remove_head(node **head);
-// void print_list(node* const head);
-// void clear_list(node **head);
-
-
-// #endif /* linked_list_h */
-
-#ifndef CTCP_LINKED_LIST_H
-#define CTCP_LINKED_LIST_H
+#ifndef LINKED_LIST_H
+#define LINKED_LIST_H
 
 
 /** Node in the linked list. */
@@ -147,4 +114,4 @@ ll_node_t *ll_back(linked_list_t *list);
  */
 unsigned int ll_length(linked_list_t *list);
 
-#endif /* CTCP_LINKED_LIST_H */
+#endif /* LINKED_LIST_H */
