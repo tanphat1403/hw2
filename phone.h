@@ -15,5 +15,9 @@ typedef struct phone_info
 phone_info_t* create_phone();
 void add_phone(linked_list_t *list);
 void print_phone_list(linked_list_t* list);
+void remove_phone(linked_list_t* list);
+void change_nums(linked_list_t* list);
+void search_phone(linked_list_t* list);
+void print_phone_info(ll_node_t* node);
 
 

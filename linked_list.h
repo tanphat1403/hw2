@@ -51,6 +51,7 @@ struct linked_list {
   unsigned int length;
 };
 typedef struct linked_list linked_list_t;
+int is_empty(linked_list_t* const list);
 
 
 /**

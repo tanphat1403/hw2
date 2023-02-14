@@ -106,12 +106,24 @@
 // }
 
 
+
 linked_list_t *ll_create() {
   linked_list_t *list = calloc(sizeof(linked_list_t), 1);
   list->head = NULL;
   list->tail = NULL;
   list->length = 0;
   return list;
+}
+
+int is_empty(linked_list_t* const list)
+{
+    // TODO: 
+    // check if head is NULL
+    if (list->head == NULL)
+    {
+        return 1;
+    }
+    return 0;
 }
 
 void ll_destroy(linked_list_t *list) {
